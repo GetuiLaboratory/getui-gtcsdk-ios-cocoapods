@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "GTCommonSDK"
   # 版本号/库原代码的版本
-  s.version      = "1.1.1.0"
+  s.version      = "1.2.0.0"
   # 简介
   s.summary      = "个推基础库 iOS SDK CocoaPods 集成库"
   # 项目主页地址
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # 需要包含的源文件
   # s.source_files  = 'GTCountSDK.h'
   # 使用了第三方静态库
-  s.ios.vendored_libraries = 'libGTCommonSDK-1.1.1.0.a'
+  s.ios.vendored_libraries = 'libGTCommonSDK-1.2.0.0.a'
   # s.ios.vendored_frameworks = 'GeYanSdk.framework'
   # 所需的framework，多个用逗号隔开
   # s.frameworks = 'AdSupport'
