@@ -2,11 +2,13 @@
 //  GTCommonSDK.h
 //  GTCommonSDK
 //
-//  Created by GeTui on 2017/7/18.
-//  Copyright © 2017年 GeTui. All rights reserved.
-//
+//  Created by Getui on 2020/11/16.
+//  GTCommonSDK-Version: 3.0.1.0
 
 #import <Foundation/Foundation.h>
 
 @interface GTCommonSDK : NSObject
+
++ (NSString*)version;
+
 @end

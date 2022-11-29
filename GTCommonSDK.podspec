@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "GTCommonSDK"
   # 版本号/库原代码的版本
-  s.version      = "1.2.8.2"
+  s.version      = "3.0.1.0"
   # 简介
   s.summary      = "个推基础库 iOS SDK CocoaPods 集成库"
   # 项目主页地址
@@ -25,18 +25,20 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   # iOS支持的pod最低版本 / iOS对应的版本
   s.ios.deployment_target = "7.0"
-  # 需要包含的源文件
-  # s.source_files  = 'GTCountSDK.h'
+ 
   # 使用了第三方静态库
-  s.ios.vendored_libraries = 'libGTCommonSDK-1.2.8.2.a'
-  # s.ios.vendored_frameworks = 'GeYanSdk.framework'
+  s.ios.vendored_frameworks = 'GTCommonSDK.framework'
+ 
   # 所需的framework，多个用逗号隔开
-  # s.frameworks = 'AdSupport'
+  s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security','AdSupport'
+
   # “弱引用”所需的framework，多个用逗号隔开
-  # s.ios.weak_frameworks = 'WebKit'
+  s.ios.weak_frameworks = 'AppTrackingTransparency','Network'
+
   # 所需的library，多个用逗号隔开
-  # s.libraries = "sqlite3.0","z"
+  s.ios.libraries = 'z','sqlite3.0','c++','resolv'
+
   # 是否使用ARC，如果指定具体文件，则具体的问题使用ARC
-  # s.requires_arc = true
+  s.requires_arc = true
 
 end
