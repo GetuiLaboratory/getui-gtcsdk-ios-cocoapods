@@ -3,7 +3,7 @@
 //  GTCommonSDK
 //
 //  Created by Getui on 2020/11/16.
-//  GTCommonSDK-Version: 3.0.1.0
+//  GTCommonSDK-Version: 3.0.2.0
 
 #import <Foundation/Foundation.h>
 
