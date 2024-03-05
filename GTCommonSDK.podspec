@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   # 使用了第三方静态库
   s.ios.vendored_frameworks = 'GTCommonSDK.xcframework'
   
-  s.dependency 'ZXSDK'
-  #s.dependency 'ZXSDK-Noidfa'
+  #s.dependency 'ZXSDK'
+  s.dependency 'ZXSDK-Noidfa'
  
   # 所需的framework，多个用逗号隔开
   s.ios.frameworks = 'SystemConfiguration', 'CFNetwork','CoreTelephony','CoreLocation','AVFoundation','Security','AdSupport'
