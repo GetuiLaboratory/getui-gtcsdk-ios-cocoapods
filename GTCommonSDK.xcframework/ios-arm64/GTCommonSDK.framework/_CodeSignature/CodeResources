@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/GTCommonSDK.h</key>
 		<data>
-		zDxruH2FyXlZ98q67fq2v4hyAK8=
+		OGRaZHN52c/rt11Qas9e1Fua/ik=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		EO5ctQ/OXNaTf/XyALeTAAazAoI=
+		uUEVkXwq7ZAYfBa+rNPxZ8DUrkQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,11 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zDxruH2FyXlZ98q67fq2v4hyAK8=
+			OGRaZHN52c/rt11Qas9e1Fua/ik=
 			</data>
 			<key>hash2</key>
 			<data>
-			l0Jr/JMo1m8ZQcFSVCBlsmXu4wYud9uALhKWbtWkufo=
+			XYZlfk+M0C3lIeZvb4HyzgtTZECFltSisRu8DF1KdbY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -49,11 +49,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EO5ctQ/OXNaTf/XyALeTAAazAoI=
+			uUEVkXwq7ZAYfBa+rNPxZ8DUrkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			U2IXxu7WOLSRCaQOTQ690ZP6z+1ArNLWCaPXoXR9tK8=
+			0Rgb1pNZGbRXoy5W99dSEZxZguXP62j6axZGtrPxhlY=
 			</data>
 		</dict>
 	</dict>
